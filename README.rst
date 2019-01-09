@@ -3,15 +3,15 @@ Python XTEA
 ===========
 
 .. image:: https://api.codeclimate.com/v1/badges/563d6ad2607d6ed6fda3/maintainability
-   :target: https://codeclimate.com/github/Varbin/xtea/maintainability
+   :target: https://codeclimate.com/github/tgates42/xtea/maintainability
    :alt: Maintainability
 
 .. image:: https://api.codeclimate.com/v1/badges/563d6ad2607d6ed6fda3/test_coverage
-   :target: https://codeclimate.com/github/Varbin/xtea/test_coverage
+   :target: https://codeclimate.com/github/tgates42/xtea/test_coverage
    :alt: Test Coverage
 
-.. image:: https://travis-ci.org/Varbin/xtea.svg?branch=master
-   :target: https://travis-ci.org/Varbin/xtea
+.. image:: https://travis-ci.org/tgates42/xtea.svg?branch=master
+   :target: https://travis-ci.org/tgates42/xtea
    :alt: Travis CI build status
 
 This is an XTEA-Cipher implementation in Python (eXtended Tiny Encryption Algorithm).
@@ -24,7 +24,7 @@ This is an XTEA-Cipher implementation in Python (eXtended Tiny Encryption Algori
 
 Example:
 
-    >>> from xtea import *
+    >>> from xtea4 import *
     >>> key = " "*16  # Never use this
     >>> text = "This is a text. "*8
     >>> x = new(key, mode=MODE_OFB, IV="12345678")
@@ -36,5 +36,5 @@ Note
 ====
    
     I do NOT guarantee that this implementation (or the base cipher) is secure. If you find bugs, please report them at
-    https://github.com/Varbin/xtea/issues . 
+    https://github.com/tgates42/xtea/issues . 
 

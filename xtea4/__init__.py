@@ -8,7 +8,7 @@ ECB, CBC, CFB, OFB, CTR
 
 Example:
 
->>> from xtea import *
+>>> from xtea4 import *
 >>> key = " "*16  # Never use this
 >>> text = "This is a text. "*8
 >>> x = new(key, mode=MODE_OFB, IV="12345678")

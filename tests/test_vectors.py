@@ -55,7 +55,7 @@ def test_encryption():
         c = _unwrap(vector['c'])
         k = _unwrap(vector['k'])
 
-        x = xtea.new(key=k, mode=xtea.MODE_ECB)
+        x = xtea4.new(key=k, mode=xtea4.MODE_ECB)
         try:
             r = x.encrypt(e)
             assert r == c
@@ -73,7 +73,7 @@ def test_decryption():
         c = _unwrap(vector['c'])
         k = _unwrap(vector['k'])
 
-        x = xtea.new(key=k, mode=xtea.MODE_ECB)
+        x = xtea4.new(key=k, mode=xtea4.MODE_ECB)
         try:
             r = x.decrypt(c)
             assert r == e

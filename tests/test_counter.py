@@ -1,6 +1,6 @@
 import unittest
 
-from xtea.counter import Counter, to_bytes, from_bytes
+from xtea4.counter import Counter, to_bytes, from_bytes
 
 
 class TestIntToBytes(unittest.TestCase):

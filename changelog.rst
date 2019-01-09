@@ -7,7 +7,7 @@ Changelog
  - Improved tests
  - PEP8-style formatting
  - Unittests: Counter, modes (but not results of them!), test vectors
- - [BREAKING CHANGE] Counter class is now in xtea.counter
+ - [BREAKING CHANGE] Counter class is now in xtea4.counter
 
 (unreleased) Version 0.6.0; Oct 16, 2016
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

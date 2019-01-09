@@ -3,8 +3,8 @@ import os
 
 from time import clock
 
-from xtea import MODE_CBC, MODE_CTR, MODE_ECB, MODE_OFB, MODE_CFB, XTEACipher
-from xtea.counter import Counter
+from xtea4 import MODE_CBC, MODE_CTR, MODE_ECB, MODE_OFB, MODE_CFB, XTEACipher
+from xtea4.counter import Counter
 
 AMOUNT = 50
 
